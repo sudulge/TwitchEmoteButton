@@ -1,0 +1,55 @@
+body {
+  height: 190px;
+  width: 490px;
+  background-color: #ebdeff;
+  font-size: 18px;
+}
+
+.member {
+  width : 40px;
+  height: 40px;
+  border-radius: 50%;
+  border-width: 1px;
+  cursor: pointer;
+}
+
+#woowakgood {  background-image: url("image/woowakgood.png");    background-size: cover;}
+#vo_ine {  background-image: url("image/ine.png");    background-size: cover;}
+#jingburger {  background-image: url("image/jingburger.png");    background-size: cover;}
+#lilpaaaaaa {  background-image: url("image/lilpa.png");    background-size: cover;}
+#cotton__123 {  background-image: url("image/jururu.png");    background-size: cover;}
+#gosegugosegu {  background-image: url("image/gosegu.png");    background-size: cover;}
+#viichan6 {  background-image: url("image/viichan.png");    background-size: cover;}
+
+.emotes {
+  width: 38px;
+  height: 38px;
+  cursor: pointer;
+  background-size: cover;
+  border: 0;
+  padding: 0;
+  margin: 5px;
+}
+
+.selected {
+  width: 28px;
+  height: 28px;
+  margin: 4.3px;
+}
+
+#selected_emotes {
+  width: 330px;
+  margin: 5px;
+  height: auto;
+  border-top: 1px rgb(229, 229, 229) solid;
+  background-color: white;
+}
+
+#asdf {
+  display: flex;
+  justify-content: space-between;
+}
+#save {
+  margin: 5px;
+  height: 38px;
+}
